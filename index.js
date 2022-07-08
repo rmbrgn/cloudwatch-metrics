@@ -79,7 +79,7 @@
  * ```
  */
 
-var CloudWatch = require('aws-sdk/clients/cloudwatch');
+var CloudWatch = require('@aws-sdk/client-cloudwatch').CloudWatch;
 const SummarySet = require('./src/summarySet');
 
 var _awsConfig = {region: 'us-east-1'};

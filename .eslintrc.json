@@ -1,3 +1,9 @@
 {
-  "extends": "mixmax/node"
+  "extends": "mixmax/node",
+  "rules": {
+    "no-var": 0,
+    "prettier/prettier": 0,
+    "import/order": 0,
+    "object-shorthand": 0
+  }
 }
